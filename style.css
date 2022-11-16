@@ -1,0 +1,626 @@
+body {
+    margin: 0;
+}
+header {
+    margin: 0;
+    display: flex;
+}
+.top-header {
+    height: 54px;
+    width: 100%;
+}
+.inner-head {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.logo {
+    padding: 16px 6px 16px 10px;
+    float: left;
+    height: 24px;
+    width: 137px;
+    box-sizing: inherit;
+    outline-offset: -2px;
+}
+.img-logo {
+    height: 24px;
+}
+.nav-items {
+    height: 30px;
+    width: 850px;
+    gap: 20px;
+    padding-top: 9px;
+    display: flex;
+    align-items: flex-start;
+}
+.items {
+    height: 20px;
+    width: fit-content;
+    margin-top: 12px;
+    position: relative;
+    color: #262626;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.items a {
+    text-decoration: none;
+    padding-top: 3px;
+    font-weight: 400;
+    color: #262626;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.items a:hover {
+    border-bottom: 2.5px solid black;
+}
+.search-side {
+    height: 30px;
+    width: 380px;
+    gap: 20px;
+    padding-top: 9px;
+    display: flex;
+}
+.search {
+    height: 20px;
+    width: fit-content;
+    margin-top: 12px;
+    position: relative;
+    color: #262626;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.search2 {
+    height: 20px;
+    width: fit-content;
+    position: relative;
+    color: #262626;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.search a {
+    text-decoration: none;
+    padding-top: 3px;
+    font-weight: 400;
+    color: #262626;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.search a:hover {
+    border-bottom: 2.5px solid black;
+}
+#sign:hover {
+    border-bottom: none;
+}
+.s-img {
+    height: 20px;
+    width: 20px;
+}
+.s-img2 {
+    height: 30px;
+    padding-right: 40px;
+    width: 30px;
+}
+.search img {
+    display: flex;
+    margin-left: 5px;
+    float: right;
+}
+.surface {
+    max-width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+.surface-9 {
+    width: 100%;
+    position: relative;
+    height: 475px;
+}
+.inner-surface {
+    position: relative;
+}
+.write {
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    top: 70px;
+    height: 310px;
+    width: 570px;
+}
+.inner-write {
+    left: 150px;
+    bottom: 230px;
+    top: 85px;
+    height: 212px;
+    width: 475px;
+    margin: 40px auto;
+}
+.new {
+    height: 40px;
+}
+#new {
+    background-color: #fff;
+    color: #950c17;
+    height: 28px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    width: 57px;
+    padding: auto;
+    border: 0;
+}
+.new1 {
+    height: 40px;
+}
+#new1 {
+    background-color: #950c17;
+    color: #fff;
+    height: 28px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    width: 57px;
+    padding: auto;
+    border: 0;
+}
+.surf-9 h2 {
+    font-size: 2.315rem;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+}
+.surf-9 {
+    height: 60px;
+}
+.para {
+    height: 60px;
+}
+.para p {
+    margin: 20px 0;
+    color: #262626;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.lm {
+    height: 50px;
+}
+.lm button {
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+}
+.line-break {
+    height: 55px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.line-items {
+    width: 200px;
+    height: 100%;
+    gap: 10px;
+    margin: auto;
+    display: flex;
+}
+.l-items {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.ol-li li {
+    font-size: 40px;
+    margin-left: 5px;
+    font-weight: lighter;
+    color: black;
+}
+.ol-li ul {
+    height: 0;
+    margin: 0 0 0 0;
+    width: 0;
+}
+.ol-li1 input {
+    font-size: larger;
+    color: black;
+    margin-right: 5px;
+    margin-top: 10px;
+    background-color: #262626;
+}
+.arrow1 {
+    height: 45px;
+    width: 45px;
+}
+.feature-items {
+    height: 110px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.features {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+.innerfeatures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+.wind-logo {
+    width: fit-content;
+    align-items: center;
+}
+.wind-logos1 {
+    height: 40px;
+    width: 40px;
+    margin-left: 82px;
+}
+.wind-logos2 {
+    height: 40px;
+    width: 40px;
+    margin-left: 70px;
+}
+.wind-logos3 {
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+}
+.wind-logos4 {
+    height: 40px;
+    width: 40px;
+    margin-left: 36px;
+}
+.wind-logo h4 {
+    margin-top: 10px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.card-feature {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.cards {
+    height: 95%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.inner-cards {
+    height: 100%;
+    width: 335px;
+}
+.card-img {
+    height: 177px;
+    width: 317px;
+    padding-bottom: 30px;
+}
+.img-card {
+    width: 317px;
+    padding-bottom: 50px;
+    height: 177px;
+}
+.card-img1 {
+    height: 177px;
+    width: 317px;
+    padding-bottom: 30px;
+}
+.img-card1 {
+    width: 317px;
+    height: 177px;
+}
+.card-h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+}
+.card-para {
+    margin: 20px 0;
+    color: #262626;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.card-para1 {
+    margin: 20px 0 0 0;
+    color: #262626;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.card-btn {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.card-btn a {
+    color: #950c17;
+    background-color: #fff;
+    font-weight: 500;
+    height: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    font-size: 14px;
+    padding-top: 3px;
+    letter-spacing: 0.5px;
+}
+.card-btn a:hover {
+    border-bottom: 2px solid #950c17;
+}
+.card-btn1 {
+    height: 30px;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.card-btn1 a {
+    color: #950c17;
+    background-color: #fff;
+    font-weight: 500;
+    height: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    font-size: 14px;
+    padding-top: 3px;
+    letter-spacing: 0.5px;
+}
+.card-btn1 a:hover {
+    border-bottom: 2px solid #950c17;
+}
+.edge {
+    height: 520px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.edge-img {
+    width: 90%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+.mc-img {
+    width: 100%;
+    height: 514px;
+    position: relative;
+}
+.write-edge {
+    position: absolute;
+    top: 140px;
+    height: 275px;
+    width: 460px;
+    background-color: #fff;
+    bottom: 40px;
+    left: 70px;
+}
+.inner-edge {
+    width: 360px;
+    height: 180px;
+    margin: 50px auto;
+}
+.edge-1 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+}
+.edge-para {
+    height: 60px;
+}
+.edge-para p {
+    margin: 20px 0;
+    color: #262626;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.edge-btn {
+    height: 50px;
+}
+#mc-btn {
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+}
+.arrow {
+    filter: invert(69%) sepia(42%) saturate(2000%) hue-rotate(312deg) brightness(52%) contrast(119%);
+}
+.arrow2 {
+    filter: invert(69%) sepia(42%) saturate(2000%) hue-rotate(312deg) brightness(52%) contrast(119%);
+}
+.bsns {
+    height: 610px;
+    width: 100%;
+}
+.bsns-h2 {
+    margin: 0 auto;
+    width: 90%;
+    height: 56px;
+    margin-bottom: 50px;
+}
+.bsns-h2 h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: start;
+    font-size: 2.2125rem;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+}
+.bsns-card {
+    height: 445px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social {
+    width: 90%;
+    height: 32px;
+    padding-top: 30px;
+    margin: auto;
+}
+.social-logo {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: auto;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.follow {
+    width: 122px;
+    height: 22px;
+    color: #262626;
+    font-size: 15px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.follow p {
+    margin: auto;
+    margin-top: 6px;
+}
+.logs {
+    width: 32px;
+    height: 32px;
+}
+.logs1 {
+    width: 30px;
+    height: 30px;
+}
+.back {
+    height: 55px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.effect {
+    height: 50px;
+    width: fit-content;
+    padding-right: 20px;
+    padding: auto;
+    margin-top: 10px;
+    align-items: center;
+}
+.hover {
+    height: 45px;
+    width: 132px;
+    font-weight: 500;
+    background-color: #c0bebe;
+    padding: 8px 8px 9px 4px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 0.125rem solid transparent;
+}
+.arrow-up {
+    height: 20px;
+    width: 23px;
+    padding-top: 3px;
+}
+.bottom {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+.footer {
+    height: 100%;
+    width: 220px;
+    gap: 10px;
+}
+.inner-foot {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.foot-h2 {
+    color: #616161;
+    font-weight: 500;
+    height: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 33px 10px 3px 0px;
+}
+.foot {
+    width: fit-content;
+    height: 22px;
+    color: #616161;
+    margin: 10px 0;
+    font-size: 11px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.language {
+    height: 30px;
+    width: 100%;
+    padding-bottom: 8px;
+    background-color: #f2f2f2;
+}
+.horizontal {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.earth {
+    width: fit-content;
+    display: flex;
+    margin: 0 auto 0 0;
+    flex-direction: row;
+    height: 20px;
+}
+.earth a {
+    color: #616161;
+    margin: 0 0 3px 5px;
+    font-size: 11px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.public {
+    height: 20px;
+    width: 20px;
+}
+.privacy {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    margin: 0 30px 0 auto;
+    flex-direction: row;
+    height: 20px;
+}
+.privacy a {
+    color: #616161;
+    margin: 0 0 3px 5px;
+    font-size: 11px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#c {
+    text-decoration: none;
+}
+.foot a:hover {
+    text-decoration: underline;
+}
+.privacy a:hover {
+    text-decoration: underline;
+}
